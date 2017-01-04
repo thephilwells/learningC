@@ -13,7 +13,7 @@ int main()
 	step = 20;
 
 	fahr = lower;
-	printf("FAHR | CELSIUS\n");
+	printf("\nFAHR | CELSIUS\n");
 	while (fahr <= upper) {
 		celsius = (5.0/9.0) * (fahr-32);
 		printf("%4.0f %9.1f\n", fahr, celsius);
