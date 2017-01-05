@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* copy input to output, first version */
+/* copy input to output, replacing whitespace & newlines with a single space */
 
 int main()
 {
